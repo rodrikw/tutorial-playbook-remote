@@ -1,0 +1,20 @@
+site:
+  title: TRS-80 Expansion Interface
+  url: https://trs-80-rwade.netlify.app
+  start_page: trs-80:opsmanual:index.adoc
+content:
+  sources:
+  - url: https://github.com/rodrikw/trs-80
+    branches: main
+    # start_path: docs
+ui:
+  bundle:
+    # url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable    
+    snapshot: true
+asciidoc:
+  attributes:
+    # Prev and Next buttons:
+    page-pagination: true
+    # kbd, and menu macros:
+    experimental: true
+    
